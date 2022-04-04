@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-migrate-netlify-functions",
+  "description": "Demo repo showing how to migrate from Netlify Functions to Gatsby Functions on Gatsby Cloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "start": "netlify dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/gatsby-migrate-netlify-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/gatsby-migrate-netlify-functions/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/gatsby-migrate-netlify-functions#readme",
+  "dependencies": {
+    "@netlify/plugin-gatsby": "^2.1.4",
+    "gatsby": "^4.11.1",
+    "gatsby-plugin-netlify": "^4.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^9.16.1"
+  }
+}
