@@ -8,7 +8,6 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "serve": "gatsby serve",
-    "start": "netlify dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,13 +22,8 @@
   },
   "homepage": "https://github.com/PaulieScanlon/gatsby-migrate-netlify-functions#readme",
   "dependencies": {
-    "@netlify/plugin-gatsby": "^2.1.4",
     "gatsby": "^4.11.1",
-    "gatsby-plugin-netlify": "^4.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
-  },
-  "devDependencies": {
-    "netlify-cli": "^9.16.1"
   }
 }

@@ -6,7 +6,7 @@ const Page = () => {
   useEffect(() => {
     const getTestFunction = async () => {
       try {
-        const response = await fetch('/.netlify/functions/test-function');
+        const response = await fetch('/api/test-function');
         const data = await response.json();
         setResponse(data);
       } catch (error) {
